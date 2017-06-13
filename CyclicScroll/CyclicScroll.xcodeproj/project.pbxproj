@@ -15,6 +15,7 @@
 		5FC607E21EEE967A00A0634B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC607E01EEE967A00A0634B /* LaunchScreen.storyboard */; };
 		5FC607ED1EEE967A00A0634B /* CyclicScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC607EC1EEE967A00A0634B /* CyclicScrollTests.m */; };
 		5FC607F81EEE967A00A0634B /* CyclicScrollUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC607F71EEE967A00A0634B /* CyclicScrollUITests.m */; };
+		5FC6080A1EEE97F400A0634B /* WWHCyclicScrollImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC608091EEE97F400A0634B /* WWHCyclicScrollImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5FC607F31EEE967A00A0634B /* CyclicScrollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CyclicScrollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC607F71EEE967A00A0634B /* CyclicScrollUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CyclicScrollUITests.m; sourceTree = "<group>"; };
 		5FC607F91EEE967A00A0634B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FC608081EEE97F400A0634B /* WWHCyclicScrollImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWHCyclicScrollImageView.h; sourceTree = "<group>"; };
+		5FC608091EEE97F400A0634B /* WWHCyclicScrollImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWHCyclicScrollImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		5FC607D11EEE967A00A0634B /* CyclicScroll */ = {
 			isa = PBXGroup;
 			children = (
+				5FC608081EEE97F400A0634B /* WWHCyclicScrollImageView.h */,
+				5FC608091EEE97F400A0634B /* WWHCyclicScrollImageView.m */,
 				5FC607D51EEE967A00A0634B /* AppDelegate.h */,
 				5FC607D61EEE967A00A0634B /* AppDelegate.m */,
 				5FC607D81EEE967A00A0634B /* ViewController.h */,
@@ -202,6 +207,7 @@
 		5FC607C71EEE967A00A0634B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WWH;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = daGuanJiaJinRong;
 				TargetAttributes = {
@@ -273,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FC6080A1EEE97F400A0634B /* WWHCyclicScrollImageView.m in Sources */,
 				5FC607DA1EEE967A00A0634B /* ViewController.m in Sources */,
 				5FC607D71EEE967A00A0634B /* AppDelegate.m in Sources */,
 				5FC607D41EEE967A00A0634B /* main.m in Sources */,
@@ -507,6 +514,7 @@
 				5FC607FE1EEE967A00A0634B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FC607FF1EEE967A00A0634B /* Build configuration list for PBXNativeTarget "CyclicScrollTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				5FC608011EEE967A00A0634B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FC608021EEE967A00A0634B /* Build configuration list for PBXNativeTarget "CyclicScrollUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +532,7 @@
 				5FC608041EEE967A00A0634B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
